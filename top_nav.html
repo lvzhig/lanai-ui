@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+    <title></title>
+    <link href="css/lanai-ui.css" rel="stylesheet" />
+</head>
+<body class="hold-transition skin-blue layout-top-nav">
+    <header class="main-header">
+        <nav class="navbar navbar-static-top">
+            <div class="container width-all">
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand"><b>Lanai</b>UI</a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" data-addtab="layout" data-target="#MasterTabs" data-title="后台布局" data-url="pages/layouts/layout.html">后台布局<span class="sr-only">(current)</span></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">基本元素 <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#" data-addtab="buttons" data-target="#MasterTabs" data-title="按钮" data-url="pages/ui/buttons.html">按钮</a></li>
+                                <li><a href="#" data-addtab="forms" data-target="#MasterTabs" data-title="表单" data-url="pages/ui/forms.html">表单</a></li>
+                                <li><a href="#">导航/面包屑</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">其他</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+                <!-- Navbar Right Menu -->
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+                        <!-- Notifications Menu -->
+                        <li class="dropdown notifications-menu">
+                            <!-- Menu toggle button -->
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-bell-o"></i>
+                                提醒
+                                <span class="label label-warning">1</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="header">库存提醒</li>
+                                <li>
+                                    <!-- Inner Menu: contains the notifications -->
+                                    <ul class="menu">
+                                        <li>
+                                            <!-- start notification -->
+                                            <a href="#">
+                                                <i class="fa fa-users text-aqua"></i> 库存数量不足，请联系进货
+                                            </a>
+                                        </li>
+                                        <!-- end notification -->
+                                    </ul>
+                                </li>
+                                <li class="footer"><a href="#">查看</a></li>
+                            </ul>
+                        </li>
+                        <!-- User Account Menu -->
+                        <li class="user user-menu">
+                            <!-- Menu Toggle Button -->
+                            <a href="#">
+                                <!-- The user image in the navbar-->
+                                <img src="img/sl.jpg" class="user-image" alt="索隆">
+                                <!-- hidden-xs hides the username on small devices so only the image appears. -->
+                                <span class="hidden-xs">索隆</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-custom-menu -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+    <!-- Full Width Column -->
+    <div class="content-wrapper">
+        <!-- Main content -->
+        <section class="container width-all no-padding">
+            <ul class="nav nav-tabs menu-tabs" id="MasterTabs" role="tablist">
+                    <li class="nav-tabs-header active" role="presentation">
+                        <a aria-controls="home" data-toggle="tab" href="#home" role="tab">
+                            <i class="fa fa-home"></i> Home
+                        </a>
+                    </li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content fixheight">
+
+                </div>
+        </section>
+        <!-- /.content -->
+        <!-- /.container -->
+    </div>
+    <!-- /.content-wrapper -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="pull-right hidden-xs">
+                <b>Version</b> 1.0.0.1
+            </div>
+            <strong>Copyright © 2017-2018 .</strong> All rights reserved.
+        </div>
+        <!-- /.container -->
+    </footer>
+    		<!--Small Chat-->	
+        <div class="box small-chat-box direct-chat direct-chat-primary  fadeInRight animated" data-widget="chat-small-box">
+            <div class="box-header with-border">
+                <h3 class="box-title" id="chatTitle">LAI聊</h3>
+                <div class="box-tools pull-right">
+                    <button type="button" id="btn_showContacts" class="btn btn-box-tool" data-toggle="tooltip" title="" data-widget="chat-pane-toggle" data-original-title="Contacts">
+                        <i class="fa fa-comments"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body" id="chatBody">
+                <!-- Conversations are loaded here -->
+                <div class="direct-chat-messages" id="listmsg">
+                    <div class="direct-chat-msg">
+                        <div class="direct-chat-info clearfix">
+                            <span class="direct-chat-name pull-left">索隆</span>
+                            <span class="direct-chat-timestamp pull-right">18/02/05 6:00am</span>
+                        </div>
+                        <!-- /.direct-chat-info -->
+                        <img class="direct-chat-img" src="img/sl.jpg" alt="Message User Image"><!-- /.direct-chat-img -->
+                        <div class="direct-chat-text">
+                            	早上好
+                        </div>
+                        <!-- /.direct-chat-text -->
+                    </div>
+                    <!-- /.direct-chat-msg -->
+                    <!-- Message to the right -->
+                    <div class="direct-chat-msg right">
+                        <div class="direct-chat-info clearfix">
+                            <span class="direct-chat-name pull-right">娜美</span>
+                            <span class="direct-chat-timestamp pull-left">18/02/05 7:00am</span>
+                        </div>
+                        <!-- /.direct-chat-info -->
+                        <img class="direct-chat-img" src="img/nm.jpg" alt="Message User Image"><!-- /.direct-chat-img -->
+                        <div class="direct-chat-text">
+                            	早上好!
+                        </div>
+                        <!-- /.direct-chat-text -->
+                    </div>
+                </div>
+                <!--/.direct-chat-messages-->
+                <!-- Contacts are loaded here -->
+                <div class="direct-chat-contacts">
+                    <ul class="contacts-list">
+                        <li>
+                            <a href="javascript:;" data-widget="chat-pane-toggle">
+                                <img src="img/nm.jpg" class="contacts-list-img" />
+                                <div class="contacts-list-info">
+                                    <span class="contacts-list-name">
+                                        Polo
+                                        <small class="contacts-list-date pull-right"><i class="fa fa-circle text-danger"></i> 离线</small>
+                                    </span>
+                                    <span class="contacts-list-msg">娜美@gmail.com</span>
+                                </div>
+                                <!-- /.contacts-list-info -->
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.contatcts-list -->
+                </div>
+                <!-- /.direct-chat-pane -->
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer">
+                <form action="#" method="post">
+                    <div class="input-group">
+                        <input type="text" id="message" name="message" placeholder="输入信息 ..." class="form-control">
+                        <span class="input-group-btn">
+                            <button type="button" id="sendmessage" class="btn btn-primary btn-flat">发送</button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+            <!-- /.box-footer-->
+        </div>
+        <div class="chat-area">
+            <span class="badge badge-warning pull-right msgCount">2</span>
+            <a class="open-small-chat" data-widget="chat-small-open">
+                <i class="fa fa-comments"></i>
+            </a>
+        </div>
+        <!-- /. Chat-Area-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/lanai-ui.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            console.log('欢迎使用AdminGTL,此版本仅供个人学习和研究用,商业用途请购买，谢谢')
+        })
+    </script>
+</body>
+</html>
